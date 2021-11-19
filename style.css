@@ -1,76 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: url('background-digital-clock.png'); 
+  /* background: url('background-digital-clock.png');  */
+  background-color: red;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5%;
 }
 
 /* For Buttons */
 .buttons button {
-    /* Button style */
-    padding: 25px 35px;
-    margin: 15px 25px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    background-color: rgba(255, 0, 0, 1);
-    cursor: pointer;
-    /* Button text style */
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
+  /* Button style */
+  padding: 25px 35px;
+  margin: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 1);
+  cursor: pointer;
+  /* Button text style */
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
 
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .buttons button:hover {
-    color: #3c2099;
+  color: #3c2099;
 }
 
 /* For text output */
 .text-output-container {
-    position: absolute;
-    align-items: center;
-    margin-top: 10%;
-    width: 50%;
-    height: 25em;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
+  position: absolute;
+  align-items: center;
+  margin-top: 10%;
+  width: 50%;
+  height: 25em;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 
 .text-output-container2 {
-    margin: 8% auto;
-    padding: 7% 25px;
-    width: 50%;
-    height: 15em;
-    background-color: #b9bfbb;
-    border-radius: 5px;
-    align-items: center;
+  margin: 8% auto;
+  padding: 7% 25px;
+  width: 50%;
+  height: 15em;
+  background-color: #b9bfbb;
+  border-radius: 5px;
+  align-items: center;
 }
 
 .text-output-container2 .text-output {
-    position: absolute;
-    font-family: 'JetBrains Mono', monospace;
-    text-transform: uppercase;
-    font-size: 4.5em;
-    color: rgba(255, 0, 0, 1);
-
+  position: absolute;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
+  font-size: 4.5em;
+  color: rgba(255, 0, 0, 1);
 }
 
- .day, .date, .time {
-    transition: 0.3s ease-in-out;
+.day,
+.date,
+.time {
+  transition: 0.3s ease-in-out;
 }
